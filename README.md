@@ -22,3 +22,6 @@ select.html
 <br>
 button.html
 </br>
+<br>
+checkbox.html
+</br>
