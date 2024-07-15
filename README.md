@@ -2,7 +2,7 @@
 
 <div align = "center"> 2024-07-15 </div>
 <br>
-순서대로
+▽ 순서대로
 </br>
 <br>
 form.html
