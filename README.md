@@ -28,8 +28,9 @@ button.html
 checkbox.html
 </br>
 
+<br>
 시험범위 html 전체 (시험은 주관식 컴퓨터 끄고 자필검사)
 다음엔 블로그 페이지 만듬
 수요일부터 css 수업
-
+</br>
 </div>
