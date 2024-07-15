@@ -1,6 +1,8 @@
 # ChunjaeHtmlStudy
 
 <div align = "center"> 2024-07-15 </div>
+
+<div align = "center">
 <br>
 ▽ 순서대로 ▽
 </br>
@@ -25,3 +27,4 @@ button.html
 <br>
 checkbox.html
 </br>
+</div>
