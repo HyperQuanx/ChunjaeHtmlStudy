@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form 요소</title>
+    <style>
+      input {
+        display: block;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="https://www.naver.com/">
+      <input type="text" value="텍스트" />
+      <input type="password" value="비밀번호" />
+      <!-- <input type="tel" value="전화번호" />
+      <input type="number" value="숫자" />
+      <input type="url" value="URL" />
+      <input type="email" value="Email" />
+      <input type="search" value="검색" />
+      <input type="radio" />레디오1 <input type="checkbox" />체크1
+      <input type="file" />파일선택 <input type="date" />날짜
+      <input type="datetime-local" />날짜 + 시간 <input type="month" />월
+      <input type="week" />주 <input type="time" />시간
+      <input type="range" />범위 <input type="color" />색상
+      <input type="image" />이미지 -->
+      <input type="submit" />전송 <input type="reset" />전송
+    </form>
+  </body>
+</html>
+
+<!-- 메모 내용 -->
+
+<!--
+  form 요소의 속성 값
+    id : 페이지 내에서 유일한 값
+    name : 요소 이름 (페이지 내에서 중복 가능)
+    method : 전송방식 - get(Default), post
+    action : 데이터를 전송받을 대상 URL
+    URL : Uniform Resource Location (웹 페이지를 지칭할 때)
+    URI : Uniform Resource Identifier (경로를 얘기할 때)
+
+  form 요소 하위 엘리먼트 종류
+    - input 태그 : 한 줄짜리 입력 요소에 사용
+      -type : input 태그에서 처리할 데이터의 종류, 지정하지 않으면 기본값 : text
+      - id : 페이지 내에서 유일한 값 - 주로 스크립트나 css에서 사용
+      - name : 입력 요소의 이름, 데이터 전송 시 필수
+      - value : 입력 요소의 값
+      - required : 반드시 입력해야 하는 값
+      - readonly : 읽기 전용 (입력 불가)
+
+      - type의 속성
+        - text : 한 줄짜리 문자값을 전송
+        - maxlength : 입력 가능한 최대값
+        - minlength : 입력 가능한 최소값
+-->

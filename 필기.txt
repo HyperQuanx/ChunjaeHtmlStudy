@@ -1,0 +1,7 @@
+class : css 적용하기 위한
+id 속성 : HTML 문서상에 유일해야 함
+style : CSS 적용
+title : 요소 추가 정보
+lan : 텍스트 언어 속성
+hidden : 화면 안보이게
+data-xxxxx : 사용자 정의 속성

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table style="border-collapse: collapse">
+      <thead>
+        <tr>
+          <th style="border: 1px solid #ccc">번호</th>
+          <th style="border: 1px solid #ccc">상품명</th>
+          <th style="border: 1px solid #ccc">수량</th>
+          <th style="border: 1px solid #ccc">가격</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th style="border: 1px solid #ccc">1</th>
+          <th style="border: 1px solid #ccc">콜라</th>
+          <th style="border: 1px solid #ccc" rowspan="2">12개</th>
+          <th style="border: 1px solid #ccc">3000원</th>
+        </tr>
+        <tr>
+          <th style="border: 1px solid #ccc">2</th>
+          <th style="border: 1px solid #ccc">사이다</th>
+          <th style="border: 1px solid #ccc" rowspan="2">2000원</th>
+        </tr>
+        <tr>
+          <th style="border: 1px solid #ccc">3</th>
+          <th style="border: 1px solid #ccc">제로소다</th>
+          <th style="border: 1px solid #ccc">20개</th>
+        </tr>
+        <tr>
+          <th style="border: 1px solid #ccc">총 금액</th>
+          <th style="border: 1px solid #ccc" colspan="3">100000원</th>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
+    </table>
+
+    <table>
+      <tr>
+        <th scope="col" style="border: 1px solid black; text-align: center">
+          구분
+        </th>
+        <th scope="col" style="border: 1px solid black; text-align: center">
+          중간고사
+        </th>
+        <th scope="col" style="border: 1px solid black; text-align: center">
+          기말고사
+        </th>
+      </tr>
+      <tr>
+        <th scope="row" style="border: 1px solid black; text-align: center">
+          전공
+        </th>
+        <td style="border: 1px solid black; text-align: center">A+</td>
+        <td style="border: 1px solid black; text-align: center">B+</td>
+      </tr>
+      <tr>
+        <th scope="row" style="border: 1px solid black">교양</th>
+        <td style="border: 1px solid black; text-align: center">C</td>
+        <td style="border: 1px solid black; text-align: center">B</td>
+      </tr>
+    </table>
+  </body>
+</html>
