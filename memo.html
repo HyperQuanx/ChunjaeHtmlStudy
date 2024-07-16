@@ -6,7 +6,7 @@
     <title>Document</title>
   </head>
   <body>
-    <div>
+    <div class="memo">
       <p style="font-size: 70px">배운 태그 다 써보기</p>
       <h1>크으으다</h1>
       <h2>크으다</h2>
@@ -160,6 +160,85 @@
         </tfoot>
       </table>
       <!-- 현재 92page까지 정리 완료 -->
+      <table>
+        <tr style="border: 1px solid black">
+          <td style="border: 1px solid black" rowspan="2">rowspan</td>
+          <td style="border: 1px solid black">은</td>
+          <td style="border: 1px solid black">행</td>
+          <td style="border: 1px solid black">합치기</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black" colspan="2">colspan</td>
+          <td style="border: 1px solid black">은</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black">열</td>
+          <td style="border: 1px solid black">합</td>
+          <td style="border: 1px solid black">치</td>
+          <td style="border: 1px solid black">기</td>
+        </tr>
+      </table>
+      <div style="border: 1px solid black">
+        <p>img태그는 이미지 삽입</p>
+        <p>src속성은 경로</p>
+        <p>접근성을 위해 alt는 필수</p>
+        <img src="public/cat-jump-happy-happy-happy.gif" alt="happyCat" />
+      </div>
+      <div style="border: 1px solid black">
+        <p>object는 다양한 멀티미디어 업로드 가능</p>
+        <p>data로 경로 지정 + 문서에 많이 씀</p>
+        <object
+          data="public/웹 문서 사본.pdf"
+          width="800px"
+          height="300px"
+        ></object>
+      </div>
+      <div style="border: 1px solid black">
+        <p>embed도 다양한 멀티미디어 파일 삽입 가능</p>
+        <embed
+          src="public/26117-357512301_small.mp4"
+          width="800px"
+          height="300px"
+        />
+      </div>
+      <div style="border: 1px solid black">
+        <p>audio는 오디오 파일</p>
+        <p>controls 속성 넣어주기</p>
+        <audio src="public/18491-292594989_medium.mp3" controls></audio>
+        <p>video는 비디오 파일</p>
+        <p>마찬가지로 controls 속성 넣어주기</p>
+        <p>audio, video엔 여러 속성이 있음</p>
+        <p>autoplay : 자동재생, loop : 반복, poster : 썸네일</p>
+        <video
+          src="public/cat_naruto.mp4"
+          controls
+          poster="public/cat.webp"
+        ></video>
+      </div>
+      <div>
+        <p>a태그는 하이퍼링크</p>
+        <p>4가지 target속성이 있음 : default는 _myself</p>
+        <a
+          href="https://www.naver.com/"
+          target="_blank"
+          style="margin-bottom: 100px"
+        >
+          네이버 : _blank : 새창 띄우기<br
+        /></a>
+        <a
+          href="https://www.instagram.com/"
+          target="_parent"
+          style="margin-bottom: 100px"
+          >인스타 : _parent : <br
+        /></a>
+        <a
+          href="https://github.com/"
+          target="_top"
+          style="margin-bottom: 100px"
+        >
+          깃허브 : _top<br
+        /></a>
+      </div>
     </div>
   </body>
 </html>

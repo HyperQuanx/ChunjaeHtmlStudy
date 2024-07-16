@@ -35,6 +35,66 @@
       폼 태그 안에서 데이터를 입력받을 때 주로 id는 css나 프로그램을 위해 존재
       name은 데이터 전송을 위해 존재
       -->
+
+      <fieldset>
+        <legend>좋아하는 과일</legend>
+        <label for="fruits2_0">바나나</label>
+        <input
+          type="radio"
+          id="fruits2_0"
+          name="fruits1"
+          value="바나나"
+          checked
+        />
+        <label for="fruits2_1">사과</label>
+        <input type="radio" id="fruits2_1" name="fruits2" value="사과" />
+        <label for="fruits2_2">딸기</label>
+        <input type="radio" id="fruits2_2" name="fruits3" value="딸기" />
+        <label for="fruits2_3">수박</label>
+        <input type="radio" id="fruits2_3" name="fruits4" value="수박" />
+      </fieldset>
+
+      <fieldset>
+        <legend>dataList</legend>
+        <input type="text" list="data_list" />
+        <datalist id="data_list">
+          <option value="서버로 넘길 값 1">옵션1</option>
+          <option value="서버로 넘길 값 2">옵션2</option>
+        </datalist>
+      </fieldset>
+
+      <fieldset>
+        <legend>placeHolder</legend>
+        <div>
+          <label for="id">아이디 : </label>
+          <input
+            type="text"
+            name="id"
+            id="id"
+            value=""
+            placeholder="아이디를 입력하세요"
+            required
+          />
+        </div>
+        <div>
+          <label for="pw">비밀번호 : </label>
+          <input
+            type="password"
+            name="pw"
+            id="pw"
+            value=""
+            placeholder="비밀번호를 입력하세요"
+            required
+          />
+        </div>
+      </fieldset>
+
+      <button type="submit">확인</button>
+      <input type="submit" />
     </form>
   </body>
 </html>
+
+<!--
+checked : default 
+-->
