@@ -239,6 +239,181 @@
           깃허브 : _top<br
         /></a>
       </div>
+      <hr />
+
+      <p>form은 로그인 창이나 검색창에서 많이 써</p>
+      <p>form태그의 속성은 중요하니 적어놓기</p>
+      <p>method : get, post 두 개의 방식</p>
+      <p>
+        get : 데이터를 한정된 byte 까지만 전송 가능, 입력한 내용이 그대로
+        드러나는 단점 존재
+      </p>
+      <p>
+        post : 입력한 내용의 길이에 제한받지 않고 사용자가 입력한 내용도
+        드러나지 않음
+      </p>
+      <p>name : JS로 폼을 제어할 때 사용할 폼의 이름 지정</p>
+      <p>action : form 태그 안의 내용을 처리해 줄 서버 프로그램을 지정</p>
+      ]
+      <p>target : 알잖아?</p>
+      <fieldset>
+        <legend>폼의 제목을 지정하는 legend 지정</legend>
+        폼 요소를 그룹으로 묶는 fieldset
+      </fieldset>
+      <label
+        >label은 이름 그대로 이름붙이기, for 속성을 사용해서 input의 id와 같으면
+        연결 가능</label
+      >
+      <span style="border: 1px solid black">
+        <label for="zxcv">이렇게</label>
+        <input id="zxcv" type="text" />
+      </span>
+      <p>input은 당연히 입력칸</p>
+      <p>input 속성 - 1.type : text, password, email, number등 많음</p>
+      <p>그냥 한 번씩 다 눌러봐</p>
+      <fieldset>
+        <legend>text + pw</legend>
+        <div>
+          text
+          <input type="text" />
+        </div>
+        <div>
+          password
+          <input type="password" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>다양한 용도</legend>
+        <div>
+          search
+          <input type="search" />
+        </div>
+        <div>
+          url
+          <input type="url" />
+        </div>
+        <div>
+          email
+          <input type="email" />
+        </div>
+        <div>
+          tel
+          <input type="tel" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>체크 박스 + 라디오 버튼</legend>
+        <div>
+          checkbox
+          <input type="checkbox" />
+        </div>
+        <div>
+          radio
+          <input type="radio" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>숫자 입력</legend>
+        <div>
+          number
+          <input type="number" />
+        </div>
+        <div>
+          range
+          <input type="range" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>날짜 입력</legend>
+        <div>
+          date
+          <input type="date" />
+        </div>
+        <div>
+          month
+          <input type="month" />
+        </div>
+        <div>
+          week
+          <input type="week" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>시간 입력</legend>
+        <div>
+          time
+          <input type="time" />
+        </div>
+        <div>
+          datetime
+          <input type="datetime" />
+        </div>
+        <div>
+          datetime-local
+          <input type="datetime-local" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>전송 + 리셋</legend>
+        <div>
+          submit
+          <input type="submit" />
+        </div>
+        <div>
+          reset
+          <input type="reset" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>이미지</legend>
+        <div>
+          image
+          <input type="image" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>기본 버튼</legend>
+        <div>
+          button
+          <input type="button" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>파일 첨부</legend>
+        <div>
+          file
+          <input type="file" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>히든 필드</legend>
+        <div>
+          hidden
+          <input type="hidden" />
+        </div>
+      </fieldset>
+      <p>input 태그의 주요 속성</p>
+      <input type="text" placeholder="placeholder" />
+      <input type="text" autofocus placeholder="autofocus" />
+      <input type="text" readonly placeholder="읽기 전용" />
+      <input type="text" required placeholder="필수 입력" />
+      <textarea>여러 줄 입력 textarea</textarea>
+      <select>
+        <option>드롭다운 목록 select로 option을 묶어</option>
+        <option>보낼 value도 지정해주고 selected는 default</option>
+        <option>
+          select 속성 - size : 화면에 보이는 선택개수, multiple : 여러개 선텍
+        </option>
+      </select>
+      <input type="text" list="data" />
+      <datalist id="data">
+        <select>
+          데이터 목록 만들어 주는 datalist
+        </select>
+        <select>
+          미리 만들어 놓은 값 중에서 선택 가능
+        </select>
+      </datalist>
     </div>
   </body>
 </html>
